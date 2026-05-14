@@ -168,10 +168,10 @@ export default function Home() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
             <Link
-              href="/apply"
-              className="inline-flex items-center justify-center px-8 py-4 rounded-full bg-white text-primary font-bold text-lg hover:bg-amber-50 transition-all shadow-2xl hover:shadow-white/25 hover:scale-105"
+              href="/quiz"
+              className="inline-flex items-center justify-center px-8 py-4 rounded-full bg-amber-400 text-gray-900 font-bold text-lg hover:bg-amber-300 transition-all shadow-2xl hover:shadow-white/25 hover:scale-105"
             >
-              Apply for Cohort 1
+              Take the 2-Min Quiz
               <svg
                 className="w-5 h-5 ml-2"
                 fill="none"
@@ -187,10 +187,10 @@ export default function Home() {
               </svg>
             </Link>
             <Link
-              href="/pricing"
-              className="inline-flex items-center justify-center px-8 py-4 rounded-full border-2 border-white/40 text-white font-semibold text-lg hover:bg-white/10 transition-all"
+              href="/apply"
+              className="inline-flex items-center justify-center px-8 py-4 rounded-full bg-white text-primary font-bold text-lg hover:bg-amber-50 transition-all shadow-2xl"
             >
-              View Pricing
+              Apply for Cohort 1
             </Link>
           </div>
 

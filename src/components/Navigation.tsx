@@ -46,6 +46,12 @@ export default function Navigation() {
               Member Portal
             </Link>
             <Link
+              href="/quiz"
+              className="inline-flex items-center px-5 py-2.5 rounded-full bg-amber-500 text-white font-semibold text-sm hover:bg-amber-600 transition-colors shadow-lg shadow-amber-200"
+            >
+              Take the Quiz
+            </Link>
+            <Link
               href="/apply"
               className="inline-flex items-center px-5 py-2.5 rounded-full bg-primary text-white font-semibold text-sm hover:bg-primary-dark transition-colors shadow-lg shadow-purple-200"
             >
@@ -116,8 +122,15 @@ export default function Navigation() {
               Member Portal
             </Link>
             <Link
+              href="/quiz"
+              className="block mx-4 text-center px-5 py-2.5 rounded-full bg-amber-500 text-white font-semibold text-sm"
+              onClick={() => setMobileOpen(false)}
+            >
+              Take the Quiz
+            </Link>
+            <Link
               href="/apply"
-              className="block mx-4 text-center px-5 py-2.5 rounded-full bg-primary text-white font-semibold text-sm"
+              className="block mx-4 mt-2 text-center px-5 py-2.5 rounded-full bg-primary text-white font-semibold text-sm"
               onClick={() => setMobileOpen(false)}
             >
               Apply Now
